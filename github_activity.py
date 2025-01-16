@@ -3,7 +3,7 @@ import requests
 
 # Parse Arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-u", "--username", required=True, help="GitHub kullanıcı adını belirtin!")
+ap.add_argument("-u", "--username", required=True, help="Enter a username for a github user!")
 args = ap.parse_args()
 
 # Request Settings
